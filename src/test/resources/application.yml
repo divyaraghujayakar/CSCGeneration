@@ -1,0 +1,17 @@
+#Application
+spring:
+  main:
+    web-application-type: none
+selenium:
+  browser:
+    name: chrome
+
+target:
+  application:
+    baseUrl: https://github.com/%5D(https://github.com/)
+    githubSearchUrl: https://github.com/search
+    reactSearchResultUrl: ?q=react
+    advancedSearchUrl: /advanced?q=react&type=Repositories
+    repoPageUrl: /mvoloskov/decider
+    readmePageUrl: /blob/master/README.md
+
